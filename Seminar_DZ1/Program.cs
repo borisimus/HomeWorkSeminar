@@ -3,4 +3,4 @@ Console.Clear();
 int a = -9;
 int b = -3;
 if (b > a) Console.WriteLine($"{b} - большее число, {a} - меньшее число");
-else Console.WriteLine($"{a} = max, {b} = min");
+else Console.WriteLine($"{a} = большее число, {b} = меньшее число");

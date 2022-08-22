@@ -5,5 +5,5 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int N = int.Parse(Console.ReadLine());
-if (N % 2 == 0) Console.Write($"Число {N} - четное");
-if (N % 2 != 0) Console.Write($"Число {N} - нечетное");
+if (N % 2 == 0) Console.Write($"Число {N} чётное - ДА");
+if (N % 2 != 0) Console.Write($"Число {N} чётное - НЕТ");
